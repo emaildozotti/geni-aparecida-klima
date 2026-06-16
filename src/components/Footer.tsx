@@ -41,7 +41,7 @@ export default function Footer() {
             />
 
             <FadeIn>
-              <span className="eyebrow-ultra" style={{ color: 'var(--color-secondary)', opacity: 0.6 }}>
+              <span className="eyebrow-ultra" style={{ color: 'var(--color-accent-on-dark)', opacity: 0.6 }}>
                 {COPY.eyebrow}
               </span>
             </FadeIn>
@@ -58,7 +58,7 @@ export default function Footer() {
                 }}
               >
                 {COPY.heading}{' '}
-                <em style={{ color: 'var(--color-secondary)' }}>{COPY.headingEm}</em>
+                <em style={{ color: 'var(--color-accent-on-dark)' }}>{COPY.headingEm}</em>
               </h2>
             </FadeIn>
 
@@ -85,7 +85,7 @@ export default function Footer() {
                 className="btn-shimmer rounded-sm text-sm font-medium tracking-wide"
                 style={{
                   backgroundColor: 'var(--color-secondary)',
-                  color: 'var(--color-primary-dark)',
+                  color: 'var(--color-off-white)',
                   fontFamily: 'var(--font-sans)',
                   fontWeight: 500,
                   textDecoration: 'none',

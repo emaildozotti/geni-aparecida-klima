@@ -50,7 +50,7 @@ export default function HowItWorks() {
               }}
               aria-hidden="true"
             />
-            <span className="eyebrow-ultra" style={{ color: 'var(--color-secondary)' }}>
+            <span className="eyebrow-ultra" style={{ color: 'var(--color-accent-on-dark)' }}>
               {COPY.eyebrow}
             </span>
           </div>
@@ -88,7 +88,7 @@ export default function HowItWorks() {
                     style={{
                       fontFamily: 'var(--font-display)',
                       fontSize: '13px',
-                      color: 'var(--color-secondary)',
+                      color: 'var(--color-accent-on-dark)',
                       opacity: 0.5,
                       paddingTop: '2px',
                       minWidth: '28px',
@@ -151,7 +151,7 @@ export default function HowItWorks() {
               className="btn-shimmer rounded-sm text-sm font-medium tracking-wide"
               style={{
                 backgroundColor: 'var(--color-secondary)',
-                color: 'var(--color-primary-dark)',
+                color: 'var(--color-off-white)',
                 fontFamily: 'var(--font-sans)',
                 fontWeight: 500,
                 textDecoration: 'none',

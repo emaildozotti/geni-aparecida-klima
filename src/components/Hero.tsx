@@ -97,7 +97,7 @@ export default function Hero() {
             >
               <span
                 className="eyebrow-ultra"
-                style={{ color: 'var(--color-secondary)', letterSpacing: '0.25em' }}
+                style={{ color: 'var(--color-accent-on-dark)', letterSpacing: '0.25em' }}
               >
                 {COPY.callout}
               </span>
@@ -116,7 +116,7 @@ export default function Hero() {
               }}
             >
               {COPY.h1}{' '}
-              <em style={{ color: 'var(--color-secondary)' }}>{COPY.h1Em}</em>
+              <em style={{ color: 'var(--color-accent-on-dark)' }}>{COPY.h1Em}</em>
             </motion.h1>
 
             {/* Subtitle */}
@@ -149,7 +149,7 @@ export default function Hero() {
                 className="btn-shimmer rounded-sm text-sm font-medium tracking-wide"
                 style={{
                   backgroundColor: 'var(--color-secondary)',
-                  color: 'var(--color-primary-dark)',
+                  color: 'var(--color-off-white)',
                   fontFamily: 'var(--font-sans)',
                   fontWeight: 500,
                   textDecoration: 'none',
@@ -183,7 +183,7 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ duration: 1.2, delay: 0.6, ease }}
               className="eyebrow-ultra"
-              style={{ color: 'var(--color-secondary)', opacity: 0.6 }}
+              style={{ color: 'var(--color-accent-on-dark)', opacity: 0.6 }}
             >
               {SITE.credenciais}
             </motion.p>
@@ -227,7 +227,7 @@ export default function Hero() {
                     border: `1px solid color-mix(in srgb, var(--color-secondary) 20%, transparent)`,
                   }}
                 >
-                  <div className="text-center" style={{ color: 'var(--color-secondary)', opacity: 0.5 }}>
+                  <div className="text-center" style={{ color: 'var(--color-accent-on-dark)', opacity: 0.5 }}>
                     <div
                       style={{
                         fontFamily: 'var(--font-display)',
@@ -276,7 +276,7 @@ export default function Hero() {
         >
           <span
             className="eyebrow-ultra"
-            style={{ color: 'var(--color-secondary)', opacity: 0.4 }}
+            style={{ color: 'var(--color-accent-on-dark)', opacity: 0.4 }}
           >
             role para baixo
           </span>
@@ -284,7 +284,7 @@ export default function Hero() {
             animate={{ y: [0, 6, 0] }}
             transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" opacity="0.4" style={{ stroke: 'var(--color-secondary)' }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" opacity="0.4" style={{ stroke: 'var(--color-accent-on-dark)' }}>
               <path d="M12 5v14M5 12l7 7 7-7" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </motion.div>
